@@ -5,7 +5,7 @@ weight = 130 #lbs
 eyes = 'Brown'
 teeth = 'White'
 hair = 'Black'
-height_in = height * 0.39 # study dril- do some math
+height_in = height * 0.40 # study dril- do some math
 weight_kg = weight * 0.45 # study drill- do some math
 
 print(f"Let's talk about {name}")
