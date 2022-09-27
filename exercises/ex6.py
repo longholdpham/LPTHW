@@ -24,5 +24,11 @@ e = "a string with a right side."
 print(w + e) 
 
 ###Test###
+someString1 = "Hello"
+someString2 = "there"
+someStatement = " {} {}, how are you doing?"
+
+print(someStatement.format(someString1,someString2))
+#Test works: code ran successfully
 
 
