@@ -1,4 +1,4 @@
-formatter = "{} {} {}"
+formatter = "{} {} {} {}"
 print(formatter.format(1, 2, 3, 4))
 print(formatter.format("one", "two", "three", "four"))
 print(formatter.format(True, False, False, True))
@@ -9,3 +9,9 @@ print(formatter.format(
     "Maybe a poem",
     "Or a song about fear."
 ))
+
+someStatement = "I am {} and {}."
+print(someStatement.format("chilling", "happy"))
+
+# '{}' is called a formatter variable
+
