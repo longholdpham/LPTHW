@@ -1,6 +1,6 @@
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
-backsplash_cat = "I'm \\ a \\ cat."
+backslash_cat = "I'm \\ a \\ cat."
 
 fat_cat = """
 I'll do a list:
@@ -13,3 +13,6 @@ print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
+
+print("{}\n{}\n{}".format(tabby_cat, persian_cat, backslash_cat))
+#testing out formatting without using a variable, worked. 
