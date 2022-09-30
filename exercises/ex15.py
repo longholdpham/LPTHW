@@ -15,5 +15,14 @@ txt_again = open(file_again)#open the file again
 
 print(txt_again.read())#print the content in the txt file again
 
-close(txt)
-close(txt_again)
+txt.close()
+txt_again.close()
+
+# Study Drill 7 notes
+#
+# Once in python shell
+# Define the variable first, such as "txt", then open the txt file,
+# " txt = open('file_name.txt') ",
+# then use the function read, " txt.read() "
+#
+# To print, " print(txt.read()) "
