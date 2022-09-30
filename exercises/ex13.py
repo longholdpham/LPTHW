@@ -12,8 +12,8 @@ print("Your second variable is:", second_variable)
 print("Your third variable is:", third_variable)
 
 print(f"""\nThe script is called {script}
-Your first variable is {first}
-Your second variable is {second}
-Your third variable is {third}
+Your first variable is {first_variable}
+Your second variable is {second_variable}
+Your third variable is {third_variable}
 """)
 # Testing printing + argv. worked
