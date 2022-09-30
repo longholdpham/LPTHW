@@ -10,10 +10,14 @@ print("The script is called:", script)
 print("Your first variable is:", first_variable)
 print("Your second variable is:", second_variable)
 print("Your third variable is:", third_variable)
+fourth_variable = input("What is the fourth variable?")
+print("Your fourth variable is:", fourth_variable)
+
 
 print(f"""\nThe script is called {script}
 Your first variable is {first_variable}
 Your second variable is {second_variable}
 Your third variable is {third_variable}
+Your fourth variable is {fourth_variable}
 """)
 # Testing printing + argv. worked
