@@ -1,11 +1,11 @@
 from sys import argv
 
-script, user_name = argv
-prompt = '> ' 
+script, user_name, computer_name = argv
+prompt = '$ ' 
 
 print(f"Hi {user_name}. I'm the {script} script.")
 print("I'd like to ask you a few questions.")
-print(f"Do you like me {user_name}?")
+print(f"Do you like me, {user_name} with a {computer_name} computer?")
 likes = input(prompt)
 
 print(f"Where do you live {user_name}?")
