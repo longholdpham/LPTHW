@@ -11,10 +11,9 @@ print("Your first variable is:", first_variable)
 print("Your second variable is:", second_variable)
 print("Your third variable is:", third_variable)
 
-print(f"""The script is called {script}
+print(f"""\nThe script is called {script}
 Your first variable is {first}
 Your second variable is {second}
 Your third variable is {third}
 """)
 # Testing printing + argv. worked
-# 
