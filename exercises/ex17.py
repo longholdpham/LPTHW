@@ -5,15 +5,15 @@ script, from_file, to_file = argv
 
 print(f"Copying from {from_file} to {to_file}")
 
-# we could do these two on one line, how?
-in_file = open(from_file) #open the 1st file
-indata = in_file.read() #'indata' now contains the opened file data
+# we could do these two on one line, how? Answer: use ';'
+in_file = open(from_file); indata = in_file.read() 
+#'indata' now contains the opened file data
 # the 'indata' variable is created to hold the data for copying
 
 
 
 print(f"The input file is {len(indata)} bytes long")
-#'len()' function output indata's size 
+#'len()' function get the length of the string that pass to it
 print(f"This is what the file content looks like:\n\n{indata}\n")
 #printing the data from 'indata' variable
 
