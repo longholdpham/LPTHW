@@ -12,5 +12,6 @@ some_string2 = "World"
 some_string3 = "!"
 
 print(f"{'Hello'} {some_string2} {some_string3}.....")
-#testing print using formatter without needing to type 'format'. worked
+# Testing print using formatter without needing to type 'format'
+# Worked
 

@@ -6,7 +6,7 @@ script, from_file, to_file = argv
 print(f"Copying from {from_file} to {to_file}")
 
 # we could do these two on one line, how?
-in_file = open(from_file) #open the file
+in_file = open(from_file) #open the 1st file
 indata = in_file.read() #'indata' now contains the opened file data
 # the 'indata' variable is created to hold the data for copying
 
