@@ -1,6 +1,6 @@
 from sys import argv
 
-script, filename = argv
+script, filename = argv #unpacking argv
 
 txt = open(filename) #open the file
 
