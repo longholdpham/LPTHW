@@ -9,10 +9,13 @@ print("If you do want that, hit RETURN.")
 input("?")
 
 print("Opening the file...")
-target = open(filename, 'w') 
+target = open(filename, 'w') # passing 'w' parameter to open the file
+# for writing, this would truncate the file first
+# Check documentation for more parameter details
 
 print("Truncating the file. Goodbye!")
-target.truncate()
+target.truncate() # This line isnt neccessary since the open function
+# above is in 'w' mode, would truncate the file first before writing
 
 print("Now I'm going to ask you for three lines.")
 
