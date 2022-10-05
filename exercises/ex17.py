@@ -1,7 +1,7 @@
 from sys import argv
 from os.path import exists
 
-script, from_file, to_file = argv
+script, from_file, to_file = argv #unpacking argv
 
 print(f"Copying from {from_file} to {to_file}")
 
