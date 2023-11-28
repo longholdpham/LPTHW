@@ -1,6 +1,4 @@
-# Learn Python 3 The Hard Way
-A repo storing my exercises from the excellent book Learn Python 3 The Hard Way by Zed Shaw
+# Learn Python The Hard Way 5th edition
+A repo storing my exercises from the Learn Python The Hard Way 5th edition course by Zed Shaw
 
-[Book Info](https://learncodethehardway.org/python/ "Book Info")
-
-Also this repo is used to relearn GitHub. Cheers!
+[Book Info]([https://learncodethehardway.org/python/](https://learncodethehardway.com/client/#/product/learn-python-the-hard-way-5e-2023/)https://learncodethehardway.com/client/#/product/learn-python-the-hard-way-5e-2023/ "Book Info")
