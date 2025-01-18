@@ -1,3 +1,5 @@
+# Reading Files
+
 from sys import argv
 
 script, filename = argv #get the file name
@@ -6,10 +8,6 @@ txt = open(filename) #open the ex15_sample.txt file, txt file's name is specific
 # the argument is passed to the open() function, the 'txt' variable stored the content opened by the open() function
 print(f"Here's your file {filename}: ") #print out the script name
 print(txt.read()) #print out the content of our opened file txt
-
-#testing out case if we dont close the file
-print(txt.read())
-
 
 txt.close()
 
