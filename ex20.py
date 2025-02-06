@@ -35,8 +35,3 @@ print_a_line(current_line, current_file)
 
 current_line += 1 #current_line = 3
 print_a_line(current_line, current_file)
-
-#test
-print_a_line(4, current_file)
-rewind(current_file)
-print_a_line(1, current_file)
